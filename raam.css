@@ -31,7 +31,10 @@ body {
   min-height: 50vh;
   padding: 10rem 9% 2rem;
 }
-
+.home{
+  margin-top:0;
+  padding-top:0;
+}
 .header {
   position: fixed;
   width: 100%;
@@ -78,6 +81,12 @@ body {
   cursor: pointer;
   display: none;
 }
+
+.backgraund img{
+  width:100vw;
+  margin-top:10rem;
+}
+
 
 .home {
   display: flex;
@@ -179,6 +188,7 @@ span {
     flex-direction: column;
     padding: 5rem 2rem; /* Adjust padding for mobile */
     padding-bottom:0;
+    padding-top:0;
   }
 
   .home-img img {

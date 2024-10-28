@@ -31,9 +31,9 @@ body {
   min-height: 50vh;
   padding: 10rem 9% 2rem;
 }
-.home{
-  margin-top:0;
-  padding-top:0;
+.home {
+  margin-top: 0;
+  padding-top: 0;
 }
 .header {
   position: fixed;
@@ -82,23 +82,22 @@ body {
   display: none;
 }
 
-.backgraund img{
-  width:100vw;
-  margin-top:7.5rem;
+.backgraund img {
+  width: 100vw;
+  margin-top: 7.5rem;
 }
-
 
 .home {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   margin-top: 5rem;
 }
 
 .home-img img {
   /* align-self: center; */
-  margin-right:5rem;
-  width:40rem;
+  margin-right: 5rem;
+  width: 40rem;
   border-radius: 50%;
   box-shadow: 0 0 25px var(--main-color);
   cursor: pointer;
@@ -123,8 +122,6 @@ body {
 }
 .home-content {
   flex: 2;
- 
-
 }
 
 .home-content h3 {
@@ -178,7 +175,7 @@ span {
   letter-spacing: 0.1rem;
   font-weight: 600;
   transition: 0.3s ease;
-  margin-top:4rem;
+  margin-top: 4rem;
 }
 #btn1:hover {
   box-shadow: 0 0 1.6rem var(--main-color);
@@ -188,17 +185,17 @@ span {
   .home {
     flex-direction: column;
     padding: 5rem 2rem; /* Adjust padding for mobile */
-    padding-bottom:0;
-    padding-top:0;
+    padding-bottom: 0;
+    padding-top: 0;
   }
 
-  .backgraund img{
-    margin-top:8.55rem;
+  .backgraund img {
+    margin-top: 8.55rem;
   }
   .home-img img {
     width: 60vw; /* Make the image larger on smaller screens */
     margin-bottom: 5rem; /* Add space between the image and text */
-    margin-right:0;
+    margin-right: 0;
   }
 
   .home-content {
@@ -210,7 +207,8 @@ span {
     font-size: 4rem; /* Reduce the size of the main header */
   }
 
-  .home-content h3, .home-content p {
+  .home-content h3,
+  .home-content p {
     font-size: 2rem; /* Adjust the text size for mobile */
   }
 
@@ -224,8 +222,8 @@ span {
     height: 36px;
     font-size: 1.8rem;
   }
-  .work-section{
-    padding-top:0;
+  .work-section {
+    padding-top: 0;
   }
 }
 
@@ -245,12 +243,18 @@ span {
   margin-top: 50px;
 }
 
+.tbnl .see {
+  font-size: 2rem;
+  /* width:4rem; */
+  color: #fff;
+}
 .tbnl h2 {
   font-size: 8vh;
   color: var(--text-color);
   font-weight: 800;
-  padding: 10px 20px;
-  border: none;
+  padding: 0px 20px;
+  /* border:6px groove var(--main-color);
+  border-radius:10px; */
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -261,7 +265,9 @@ span {
   color: var(--text-color);
   font-weight: 800;
   padding: 10px 20px;
-  border: none;
+  /* border: 3px dashed var(--main-color);
+  border-radius:12px;
+  animation: lo 1.5s linear infinite; */
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -384,11 +390,11 @@ h2.vidioE {
 .r3 {
   height: 65rem;
 }
-.r4{
-height:65rem;
+.r4 {
+  height: 65rem;
 }
-.r5{
-  height:70rem;
+.r5 {
+  height: 70rem;
 }
 .r6 {
   height: 45vw;
@@ -408,7 +414,6 @@ height:65rem;
 .r11 {
   height: 45vw;
 }
-
 
 /* code for work-3 */
 
@@ -536,26 +541,27 @@ height:65rem;
 }
 
 @media only screen and (max-width: 768px) {
-  .course-container{
-    grid-template-columns: repeat(2, 1fr);
-    padding: 0;
-  
-  }
-  .logo-container{
-    grid-template-columns: repeat(2, 1fr);
-    padding: 0;
-    
-  }
-  .menu-container{
+  .course-container {
     grid-template-columns: repeat(2, 1fr);
     padding: 0;
   }
-  .reelC-container{
-    grid-template-columns: repeat(1,1fr);
+  .logo-container {
+    grid-template-columns: repeat(2, 1fr);
     padding: 0;
   }
-  .item,.item2,.item3,.item4{
-    padding:0;
+  .menu-container {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0;
+  }
+  .reelC-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0;
+  }
+  .item,
+  .item2,
+  .item3,
+  .item4 {
+    padding: 0;
   }
 }
 
@@ -772,15 +778,32 @@ footer .copyright {
   .r3 {
     height: 55vw;
   }
-  .r4{
-    height:65vw;
+  .r4 {
+    height: 65vw;
   }
+.r7{
+  height:60vh;
+}
+.r8{
+  height:60vh;
+}
+.r9{
+  height:60vh;
+}
+.r10{
+  height:60vh;
+}
+.r11{
+  height:60vh;
+}
+
+
   .work-1 {
     height: auto;
-    padding-left:1rem;
-    padding-right:1rem;
-    padding-top:0;
-    padding-bottom:0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .wrapper {
@@ -793,22 +816,20 @@ width:100%;
   .work-1 .tumnail2 {
     display: grid;
     height: auto;
-    margin:0;
-    padding-left:2rem;
-    padding-right:2rem;
-   
+    margin: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   .work-1 .tumnail2 img {
-   margin-bottom:2rem;
-   border: 2px dashed var(--text-color);
-
+    margin-bottom: 2rem;
+    border: 2px dashed var(--text-color);
   }
 
   .work-1 .tumnail2 img:hover {
     transform: scale(1.1);
   }
-  .work-2{
-    padding-top:0;
+  .work-2 {
+    padding-top: 0;
   }
 }
 

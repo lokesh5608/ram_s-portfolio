@@ -84,7 +84,7 @@ body {
 
 .backgraund img{
   width:100vw;
-  margin-top:10rem;
+  margin-top:7.5rem;
 }
 
 
@@ -98,7 +98,7 @@ body {
 .home-img img {
   /* align-self: center; */
   margin-right:5rem;
-  width: 25vw;
+  width:40rem;
   border-radius: 50%;
   box-shadow: 0 0 25px var(--main-color);
   cursor: pointer;
@@ -178,6 +178,7 @@ span {
   letter-spacing: 0.1rem;
   font-weight: 600;
   transition: 0.3s ease;
+  margin-top:4rem;
 }
 #btn1:hover {
   box-shadow: 0 0 1.6rem var(--main-color);
@@ -191,6 +192,9 @@ span {
     padding-top:0;
   }
 
+  .backgraund img{
+    margin-top:8.55rem;
+  }
   .home-img img {
     width: 60vw; /* Make the image larger on smaller screens */
     margin-bottom: 5rem; /* Add space between the image and text */
@@ -389,6 +393,22 @@ height:65rem;
 .r6 {
   height: 45vw;
 }
+.r7 {
+  height: 45vw;
+}
+.r8 {
+  height: 45vw;
+}
+.r9 {
+  height: 45vw;
+}
+.r10 {
+  height: 45vw;
+}
+.r11 {
+  height: 45vw;
+}
+
 
 /* code for work-3 */
 
@@ -692,7 +712,7 @@ footer .copyright {
   margin-top: 20px;
   text-align: center;
   font-size: 1rem;
-  color: var(--text-color);
+  color: var(--bg-color);
 }
 
 /* code for responsive web */

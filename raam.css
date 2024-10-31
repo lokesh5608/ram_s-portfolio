@@ -189,6 +189,7 @@ span {
 
   .logo img{
     width:15rem;
+    left:.5rem;
   }
   .backgraund img {
     margin-top: 10rem;
@@ -254,6 +255,7 @@ span {
   color: var(--text-color);
   font-weight: 800;
   padding: 0px 20px;
+  color:var(--main-color);
   /* border:6px groove var(--main-color);
   border-radius:10px; */
   cursor: pointer;
@@ -777,10 +779,10 @@ footer .copyright {
     right: 0;
   }
   .r1 {
-    height: 32rem;
+    height: 25rem;
   }
   .r2 {
-    height: 32rem;
+    height: 25rem;
   }
 .r3{
   height:60vh;
@@ -801,10 +803,10 @@ footer .copyright {
   height:60vh;
 }
 .r9{
-  height:50rem;
+  height:45rem;
 }
 .r10{
-  height:50rem;
+  height:45rem;
 }
 
 

@@ -780,33 +780,43 @@ footer .copyright {
   }
   .r1 {
     height: 22vh;
+    max-width:95vw;
   }
   .r2 {
     height: 22vh;
+    max-width:95vw;
   }
 .r3{
   height:60vh;
+  max-width:95vw;
 }
 .r4{
   height:60vh;
+  max-width:95vw;
 }
 .r5{
   height:60vh;
+  max-width:95vw;
 }
 .r6{
   height:60vh;
+  max-width:95vw;
 }
 .r7{
   height:60vh;
+  max-width:95vw;
 }
 .r8{
   height:60vh;
+  max-width:95vw;
 }
 .r9{
   height:45rem;
+  max-width:95vw;
 }
 .r10{
   height:45rem;
+  max-width:95vw;
 }
 
 

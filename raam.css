@@ -210,8 +210,8 @@ span {
   }
 
   .home-content h3 {
-font size:4rem;
-
+font-size:4rem;
+  }
   .home-content p {
     font-size: 3rem; /* Adjust the text size for mobile */
   }

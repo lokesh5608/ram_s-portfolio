@@ -139,7 +139,7 @@ span {
 }
 
 .home-content p {
-  font-size: 1.6rem;
+  font-size: 2.5rem;
 }
 .social-media a {
   display: inline-flex;
@@ -213,7 +213,8 @@ span {
 font size:4rem;
 
   .home-content p {
-    font-size: 3rem; /* Adjust the text size for mobile */
+    font-size: 4rem; /* Adjust the text size for mobile */
+    margin-top:.4rem;
   }
 
   .navbar a {
